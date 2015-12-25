@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '20.0.0'
+    defaultConfig {
+        applicationId 'com.bluetoothlamp.tiny.bluetoothlamp'
+        minSdkVersion 14
+        targetSdkVersion 8
+        versionCode 1
+        versionName '1.0'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile project(':libraries:library')
+    compile project(':libraries:MPChartLib')
+    compile project(':libraries:sugerdao')
+    compile files('libs/BmobSDK_V3.3.5_0408.jar')
+    compile files('libs/Bmob_Push_V0.6beta_20150408.jar')
+}

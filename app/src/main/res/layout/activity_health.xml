@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/container"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.bluetoothlamp.tiny.activity.TvActivity">
+
+    <com.bluetoothlamp.tiny.view.verticalview.VerticalViewPager
+        android:id="@+id/health_viewpaper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.bluetoothlamp.tiny.view.verticalview.VerticalViewPager>
+
+
+
+    <!--<com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+
+
+    <!--    <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pie_chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>-->
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">w+</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+
+    <!-- 侧边栏列表中所显示的文字 -->
+    <string name="Lamp">台灯</string>
+    <string name="TV">媒体</string>
+    <string name="Health">健康</string>
+    <string name="Information">个人信息</string>
+    <string name="Setting">更多</string>
+    <string name="title_activity_lamp">LampActivity</string>
+    <string name="title_activity_health">HealthActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <!--退出框所显示的文字-->
+    <string name="dialog_title">退出</string>
+    <string name="dialog_hint"> 您确定要退出 T.T </string>
+    <string name="OK">确定</string>
+    <string name="Cancel">取消</string>
+
+    <!--健康设备中的文字-->
+    <string name="piechart_center_text">饮水</string>
+
+    <!--login 页面中的文字-->
+    <string name="welcome">欢迎</string>
+    <string name="edit_username">请输入用户名</string>
+    <string name="password">请输入密码</string>
+    <string name="login_button">LOGIN IN</string>
+
+    <!--setting 页面中的文字-->
+    <string name="sync_network">同步到网络</string>
+
+
+</resources>

@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.bluetoothlamp.tiny.activity.LoginActivity"
+                xmlns:material="http://schemas.android.com/apk/res-auto"
+                android:background="@color/holo_red_dark">
+
+    <RelativeLayout
+        android:layout_width="34mm"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:padding="5dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="15dp"
+            android:inputType="numberPassword"
+            android:id="@+id/login_passwd_edit"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/login_username_edit"
+            android:layout_alignStart="@+id/login_username_edit"
+            android:hint="@string/password"
+            android:textColorHint="@color/white"
+            android:background="@drawable/bg_edittext"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:padding="5dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="15dp"
+            android:id="@+id/login_username_edit"
+            android:layout_above="@+id/login_passwd_edit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:hint="@string/edit_username"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_edittext"/>
+
+        <com.bluetoothlamp.tiny.view.material.MaterialButton
+            android:text="@string/login_button"
+            android:textSize="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:gravity="center"
+            android:id="@+id/login_button"
+            android:layout_below="@+id/login_passwd_edit"
+            material:gm_textAppearance="light"
+            material:gm_fontFamily="opensans"
+            material:gm_fontWeight="bold"
+            material:gm_isMaterial="true"
+            material:gm_isAutoMove="true"
+            android:layout_alignLeft="@+id/login_passwd_edit"
+            android:layout_alignStart="@+id/login_passwd_edit"
+            android:layout_alignRight="@+id/login_username_edit"
+            android:layout_alignEnd="@+id/login_username_edit"/>
+
+        <Button
+            android:gravity="center"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:text="⊙"
+            android:id="@+id/showpassword"
+            android:background="@color/holo_red_dark"
+            android:layout_margin="10px"
+            android:layout_alignRight="@+id/login_passwd_edit"
+            android:layout_alignTop="@+id/login_passwd_edit"
+            android:layout_alignBottom="@+id/login_passwd_edit"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">w+</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+    <!-- 侧边栏列表中所显示的文字 -->
+    <string name="Lamp">Lamp</string>
+    <string name="TV">Media</string>
+    <string name="Health">Health</string>
+    <string name="Information">Information</string>
+    <string name="Setting">More</string>
+    <string name="title_activity_lamp">LampActivity</string>
+    <string name="title_activity_health">HealthActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <!-- 退出框所显示的文字 -->
+    <string name="dialog_title">Exit</string>
+    <string name="dialog_hint">you can exit the App</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+
+    <!-- 健康设备中的文字 -->
+    <string name="piechart_center_text">Drink Water</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_splash">Splash</string>
+
+    <!--login 页面中的文字-->
+    <string name="welcome">Welcome</string>
+    <string name="edit_username">Input username</string>
+    <string name="password">Input password</string>
+    <string name="login_button">Login in</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+    <!--setting 页面中的文字-->
+    <string name="sync_network">sync net</string>
+</resources>

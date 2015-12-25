@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.bluetoothlamp.tiny.activity.SettingActivity">
+
+    <TextView
+        android:id="@+id/setting_textview"
+        android:layout_marginLeft="30px"
+        android:gravity="center|start"
+        android:layout_width="wrap_content"
+        android:layout_height="100px"
+        android:text="@string/sync_network"
+        android:textColor="@color/gray"
+        android:layout_weight="9"/>
+    <com.bluetoothlamp.tiny.view.material.Switch
+        android:id="@+id/setting_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="100px"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

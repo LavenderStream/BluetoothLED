@@ -1,0 +1,3 @@
+include ':app', ':library'
+include ':libraries:library' , ':libraries:MPChartLib' , ':libraries:sugerdao'
+project(':library').projectDir = new File('libraries/library')

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/android-desgin/BluetoothLED/libraries/sugerdao/build/intermediates/exploded-aar/BluetoothLED.libraries/library/unspecified/res/values-w720dp-v13/values.xml -->
+    <eat-comment/>
+    <dimen name="dialog_padding">120dp</dimen>
+</resources>

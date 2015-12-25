@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:material="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <com.bluetoothlamp.tiny.view.wheelview.WheelView
+            android:id="@+id/about_wheelview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.bluetoothlamp.tiny.view.material.MaterialButton
+                android:id="@+id/about_materiabutton_left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                material:gm_textAppearance="light"
+                material:gm_fontFamily="opensans"
+                material:gm_fontWeight="bold"
+                material:gm_theme="@array/sky"
+                android:text="@string/OK"/>
+
+            <com.bluetoothlamp.tiny.view.material.MaterialButton
+                android:id="@+id/about_materiabutton_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                material:gm_textAppearance="light"
+                material:gm_fontFamily="opensans"
+                material:gm_fontWeight="bold"
+                material:gm_theme="@array/sky"
+                android:text="@string/Cancel"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

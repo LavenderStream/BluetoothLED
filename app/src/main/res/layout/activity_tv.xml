@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:material="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:fitsSystemWindows="true"
+              android:clipToPadding="false"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2">
+
+        <com.bluetoothlamp.tiny.view.material.MaterialButton
+            android:id="@+id/bt_tv_head"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="I/O"
+            material:gm_textAppearance="light"
+            material:gm_fontFamily="opensans"
+            material:gm_fontWeight="bold"
+            material:gm_isMaterial="true"
+            material:gm_isAutoMove="true"
+            material:gm_theme="@array/sky"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@color/actionbar_bg">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4">
+
+            <com.bluetoothlamp.tiny.view.material.MaterialButton
+                android:id="@+id/bt_tv_zero"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="0.02dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="0"
+                material:gm_textAppearance="light"
+                material:gm_fontFamily="opensans"
+                material:gm_fontWeight="bold"
+                material:gm_isMaterial="true"
+                material:gm_isAutoMove="true"
+                material:gm_theme="@array/deep"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <com.bluetoothlamp.tiny.view.material.MaterialButton
+                            android:id="@+id/bt_tv_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="1"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            material:gm_textAppearance="light"
+                            material:gm_fontFamily="opensans"
+                            material:gm_fontWeight="bold"
+                            material:gm_isMaterial="true"
+                            material:gm_isAutoMove="true"
+                            material:gm_theme="@array/deep"/>
+
+                        <com.bluetoothlamp.tiny.view.material.MaterialButton
+                            android:id="@+id/bt_tv_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            material:gm_textAppearance="light"
+                            material:gm_fontFamily="opensans"
+                            material:gm_fontWeight="bold"
+                            material:gm_isMaterial="true"
+                            material:gm_isAutoMove="true"
+                            material:gm_theme="@array/deep"/>
+
+                        <com.bluetoothlamp.tiny.view.material.MaterialButton
+                            android:id="@+id/bt_tv_three"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="3"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            material:gm_textAppearance="light"
+                            material:gm_fontFamily="opensans"
+                            material:gm_fontWeight="bold"
+                            material:gm_isMaterial="true"
+                            material:gm_isAutoMove="true"
+                            material:gm_theme="@array/deep"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <com.bluetoothlamp.tiny.view.material.MaterialButton
+                            android:id="@+id/bt_tv_four"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="4"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            material:gm_textAppearance="light"
+                            material:gm_fontFamily="opensans"
+                            material:gm_fontWeight="bold"
+                            material:gm_isMaterial="true"
+                            material:gm_isAutoMove="true"
+                            material:gm_theme="@array/deep"/>
+
+                        <com.bluetoothlamp.tiny.view.material.MaterialButton
+                            android:id="@+id/bt_tv_five"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="5"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            material:gm_textAppearance="light"
+                            material:gm_fontFamily="opensans"
+                            material:gm_fontWeight="bold"
+                            material:gm_isMaterial="true"
+                            material:gm_isAutoMove="true"
+                            material:gm_theme="@array/deep"/>
+
+                        <com.bluetoothlamp.tiny.view.material.MaterialButton
+                            android:id="@+id/bt_tv_six"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="6"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            material:gm_textAppearance="light"
+                            material:gm_fontFamily="opensans"
+                            material:gm_fontWeight="bold"
+                            material:gm_isMaterial="true"
+                            material:gm_isAutoMove="true"
+                            material:gm_theme="@array/deep"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <com.bluetoothlamp.tiny.view.material.MaterialButton
+                            android:id="@+id/bt_tv_seven"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="7"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            material:gm_textAppearance="light"
+                            material:gm_fontFamily="opensans"
+                            material:gm_fontWeight="bold"
+                            material:gm_isMaterial="true"
+                            material:gm_isAutoMove="true"
+                            material:gm_theme="@array/deep"/>
+
+                        <com.bluetoothlamp.tiny.view.material.MaterialButton
+                            android:id="@+id/bt_tv_eight"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="8"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            material:gm_textAppearance="light"
+                            material:gm_fontFamily="opensans"
+                            material:gm_fontWeight="bold"
+                            material:gm_isMaterial="true"
+                            material:gm_isAutoMove="true"
+                            material:gm_theme="@array/deep"/>
+
+                        <com.bluetoothlamp.tiny.view.material.MaterialButton
+                            android:id="@+id/bt_tv_nine"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="9"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            material:gm_textAppearance="light"
+                            material:gm_fontFamily="opensans"
+                            material:gm_fontWeight="bold"
+                            material:gm_isMaterial="true"
+                            material:gm_isAutoMove="true"
+                            material:gm_theme="@array/deep"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <com.bluetoothlamp.tiny.view.material.MaterialButton
+                            android:id="@+id/bt_tv_plus"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="＋"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            material:gm_textAppearance="light"
+                            material:gm_fontFamily="opensans"
+                            material:gm_fontWeight="bold"
+                            material:gm_isMaterial="true"
+                            material:gm_isAutoMove="true"
+                            material:gm_theme="@array/deep"/>
+
+                        <com.bluetoothlamp.tiny.view.material.MaterialButton
+                            android:id="@+id/bt_tv_up"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="∧"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            material:gm_textAppearance="light"
+                            material:gm_fontFamily="opensans"
+                            material:gm_fontWeight="bold"
+                            material:gm_isMaterial="true"
+                            material:gm_isAutoMove="true"
+                            material:gm_theme="@array/deep"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <com.bluetoothlamp.tiny.view.material.MaterialButton
+                            android:id="@+id/bt_tv_sub"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="－"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            material:gm_textAppearance="light"
+                            material:gm_fontFamily="opensans"
+                            material:gm_fontWeight="bold"
+                            material:gm_isMaterial="true"
+                            material:gm_isAutoMove="true"
+                            material:gm_theme="@array/deep"/>
+
+                        <com.bluetoothlamp.tiny.view.material.MaterialButton
+                            android:id="@+id/bt_tv_down"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="∨"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            material:gm_textAppearance="light"
+                            material:gm_fontFamily="opensans"
+                            material:gm_fontWeight="bold"
+                            material:gm_isMaterial="true"
+                            material:gm_isAutoMove="true"
+                            material:gm_theme="@array/sand"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
